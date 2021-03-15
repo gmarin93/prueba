@@ -1,0 +1,17 @@
+************** Design Documentation ************************
+
+Fetching Data:
+    Axios was used to fetch the data from the API because of their wide options, one of them is that
+turns the response in JSON in a easier way than fetch() .
+
+Showing Data:
+     One of the a lots solutions to show the data from the API, was in Cards, making the comments be matched with its right
+    post all of it in one place .
+    Then, it is possible hide and show the comments, once you have clicked to see the commments
+    you are able to add new comments at the end of the list or hide all comments.
+    Bootstrap was used to add some styles to the app.
+
+Relate comments to posts:
+     To manage the new Comments information, everything was manage by principal state, using Redux.
+    Once the data is gotten from the API, it passed through a function that matched all data well and then it will be possible
+    to see the cards with the comments and posts.
